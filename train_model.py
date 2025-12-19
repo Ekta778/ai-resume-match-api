@@ -14,3 +14,4 @@ vectorizer.fit(sample_texts)
 
 joblib.dump(vectorizer, "model/tfidf_vectorizer.pkl")
 print("TF-IDF vectorizer saved.")
+
